@@ -123,17 +123,6 @@ const timelineAnimation = () => {
       },
       '+=2'
     )
-    .fromTo(
-      ' .section02 .box',
-      {
-        autoAlpha: 1,
-      },
-      {
-        autoAlpha: 0,
-        repeat: 3,
-        duration: 0.1,
-      }
-    )
     .to('.section02 .box', {
       autoAlpha: 1,
     })
